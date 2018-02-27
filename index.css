@@ -1,0 +1,129 @@
+#menu{
+    position: fixed;
+    top: -70px;
+    left: 0px;
+    text-align: center;
+    padding: 5px;
+}
+#downImg{
+    position: absolute;
+    bottom: -25px;
+    right: 0px;
+    height: 25px;
+}
+#body{
+    margin: 0px;
+}
+#home{
+    width: 100vw;
+}
+#header{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+#logo{
+    height: 100px;
+}
+#nevigation{
+    width: 100%;
+}
+#main{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+#mcontents{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    background-color: white;
+}
+#bg1{
+    background: url("MT/imgs/bg1.jpg");
+    background-position: center;
+}
+#bg2{
+    background: url("MT/imgs/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#bg3{
+    background: url("MT/imgs/bg3.jpg");
+    background-position: center;
+}
+#bg4{
+    background: url("MT/imgs/bg4.jpg");
+    background-position: center;
+}
+#bgtxt1, #bgtxt2, #bgtxt3, #bgtxt4 {
+    display: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: serif;
+    width: 100%;
+    height: 20%;
+    top: 0px;
+    left: 0px;
+    border-bottom: 2px solid black;
+}
+#headpic, #bodypic, #legpic, #footpic{
+    display: none;    
+    top: 20%;
+    left: 0px;
+    right: 0px;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+}
+.pics {
+    width: 30%;
+    height: 70%;
+}
+.item {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.backimg{
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin : auto;
+}
+.subtitleBox{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    opacity: 0.5;
+}
+.subtitle {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: serif;
+    color: white;
+}
